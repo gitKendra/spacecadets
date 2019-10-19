@@ -1,0 +1,43 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color: black;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: #00b7ff;
+}
+
+.container {
+  height: 100%;
+  margin: 0;
+}
+
+section {
+  height: 100vh;
+}
+
+.intro-header {
+  text-align: center;
+}
+
+.scroll {
+  display: flex;
+  justify-content: center;
+  align-content: flex-end;
+}
+.parallax {
+  /* The image used */
+  background-image: url("../images/nebula-4.jpg");
+
+  /* Set a specific height */
+  min-height: 800px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
