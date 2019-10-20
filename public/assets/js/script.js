@@ -80,10 +80,6 @@ let scene, camera, renderer, cube;
     scene.add(starMesh, cube);
     }
 
-    
-        var update = function( ) {
-
-        }; 
 
         //draw scene
         const render = function( ) {
@@ -99,14 +95,14 @@ let scene, camera, renderer, cube;
             cube.rotation.y += 0.001;
             
 
-            update( );
+         
             render( );
         };
 
         function onWindowResize() {
             camera.aspect = window.innerWidth / window.innerHeight;
             camera.updateProjectionMatrix();
-            renderer.setSize( window.innerWidth, window.innerHeight );
+            // renderer.setSize( window.innerWidth, window.innerHeight );
         }
 
         window.addEventListener( 'resize', onWindowResize, false );

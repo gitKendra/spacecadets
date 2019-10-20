@@ -30,13 +30,14 @@ section {
 }
 canvas {
   width: 100vw;
-  height: 100vh; 
+  /* height: 100vh;  */
   display: block;
-  position: fixed;
+  position: absolute;
   top:80px;
   left: 0;
   z-index: -9999;
   opacity: .75;
+  background-repeat: no-repeat;
 }
 .intro {
   text-align: center;
@@ -81,4 +82,8 @@ canvas {
   position: absolute;
   bottom: 20px;
   width: 100%;
+}
+
+.none{
+  opacity: 0;
 }
