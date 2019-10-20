@@ -10,17 +10,19 @@ a {
   color: #00b7ff;
 }
 
-.container {
-  height: 100%;
-  margin: 0;
-}
-
 section {
   height: 100vh;
 }
 
+.intro {
+  text-align: center;
+  position: relative;
+}
+
 .intro-header {
   text-align: center;
+  font-size: 80px;
+  color: lightgoldenrodyellow;
 }
 
 .scroll {
@@ -28,16 +30,31 @@ section {
   justify-content: center;
   align-content: flex-end;
 }
+
 .parallax {
   /* The image used */
   background-image: url("../images/nebula-4.jpg");
-
   /* Set a specific height */
   min-height: 800px;
-
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.counting-stats-box {
+  background-color: lightgray;
+  padding: 10px;
+  margin: 5px;
+  width: 18%;
+  display: inline-block;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.counting-stats {
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
 }
