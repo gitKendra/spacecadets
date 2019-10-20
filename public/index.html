@@ -10,24 +10,19 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
   <link rel="stylesheet" type="text/css" href="assets/css/index.css" />
+
   <title>Hello, Space Cadets!</title>
 </head>
 
 <body>
+
   <div>
     <section class="intro mt-3">
       <h1 class="intro-header">Rising Waters</h1>
-
-      <div class="intro-text-content">
-        <h3>
-          Have you seen the oceans lately?
-        </h3>
-        <h3>
-          Does the rising sea level worry you?
-        </h3>
-        <h3>
-          The waters are rising at an alarming rate. The time to act is now, before it's too late. Read the statistics
-          and
+      <canvas id="canvas"></canvas>
+      <div class="card">
+        <h3 class="m-6">
+          The waters are rising at an alarming rate. The time to act is now, before it's too late. Read some stats and
           visualize the impact here, on this award winning Space App...
         </h3>
       </div>
@@ -58,33 +53,80 @@
       <div class="scroll">&#11167;</div>
     </section>
 
-    <div class="parallax"></div>
-    <section class="issues">
+    <div class="parallax">
+
+    </div>
+    <section class="issues none">
       Global Effects
+      <div class="card slider">
+        <div class="ba-slider">
+          <img src="./assets/images/PIA06666before.jpg">
+          <div class="resize">
+            <img src="./assets/images/PIA06666after.jpg">
+          </div>
+          <span class="handle"></span>
+        </div>
+      </div>
+
       <div class="scroll">&#11167;</div>
     </section>
+
     <div class="parallax"></div>
-    <section class="effect">
-      You Can Help
-    </section>
-    <div class="parallax"></div>
+
     <section class="about">
-      About
+
+      <img src="./assets/images/topography.jpeg" alt="topographical" style="width: 100%;">
+
     </section>
-    <footer class="footer"></footer>
+
+    <div class="parallax"></div>
+
+    <section class="effect p-3">
+      <div class="card mt-3">
+        <h3 class="mt-6 mb-3">
+          More than 160 million people live along coasts in the U.S., about half of the nation's population.
+          <br>
+          -NASA
+          <br>
+          https://climate.nasa.gov/climate_resources/125/infographic-sea-level-rise/
+          <div class="card mt-3">
+            <img src="./assets/images/coastalpop.jpg" alt="global-coastal-population"><br>
+          </div>
+
+
+          The coastal population in Florida alone is 14,468,197.
+          <br>
+          -NOAA
+          <br>
+          https://coast.noaa.gov/states/florida.html
+
+        </h3>
+
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="card">
+        <h4>Thanks for joining us on this journey.</h4>
+        <p>Made by the Space Cadets</p>
+      </div>
+    </footer>
   </div>
   <!-- Optional JavaScript -->
 
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
   <script src="https://code.jquery.com/jquery-3.4.1.min.js"
     integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/109/three.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
     integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
     crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
     integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
     crossorigin="anonymous"></script>
+
+
   <script src="./assets/js/script.js"></script>
+
 
 </body>
 
