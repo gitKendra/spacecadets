@@ -29,18 +29,19 @@ section {
   display: flex;
   justify-content: center;
   align-content: flex-end;
+  display: none;
 }
 
 .parallax {
   /* The image used */
-  background-image: url("../images/nebula-4.jpg");
+  background-image: url("../images/topography.jpeg");
   /* Set a specific height */
   min-height: 800px;
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
 }
 
 .counting-stats-box {
@@ -55,6 +56,14 @@ section {
 
 .counting-stats {
   position: absolute;
-  bottom: 20px;
+  bottom: 50px;
   width: 100%;
+}
+
+.intro-text-content {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-80%);
+  transform: translateY(-80%);
 }
