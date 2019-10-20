@@ -10,10 +10,34 @@ a {
   color: #00b7ff;
 }
 
+.text { 
+  padding: 2rem;
+  margin: 4rem, 0;
+
+}
+.card {
+  background: none;
+  width: 60%;
+  margin-top: 2rem;
+  margin: auto;
+  text-align: center;
+  
+  text-shadow: .5px .5px .5px lightgoldenrodyellow;
+}
 section {
   height: 100vh;
-}
 
+}
+canvas {
+  width: 100vw;
+  height: 100vh; 
+  display: block;
+  position: fixed;
+  top:80px;
+  left: 0;
+  z-index: -9999;
+  opacity: .75;
+}
 .intro {
   text-align: center;
   position: relative;
